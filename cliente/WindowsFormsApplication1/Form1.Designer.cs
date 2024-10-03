@@ -55,6 +55,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label2.Location = new System.Drawing.Point(30, 38);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -66,7 +67,7 @@
             // IP
             // 
             this.IP.Location = new System.Drawing.Point(112, 64);
-            this.IP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IP.Margin = new System.Windows.Forms.Padding(4);
             this.IP.Name = "IP";
             this.IP.Size = new System.Drawing.Size(172, 22);
             this.IP.TabIndex = 2;
@@ -75,7 +76,7 @@
             // nombre
             // 
             this.nombre.Location = new System.Drawing.Point(155, 38);
-            this.nombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nombre.Margin = new System.Windows.Forms.Padding(4);
             this.nombre.Name = "nombre";
             this.nombre.Size = new System.Drawing.Size(217, 22);
             this.nombre.TabIndex = 3;
@@ -83,7 +84,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(383, 57);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 38);
             this.button1.TabIndex = 4;
@@ -94,7 +95,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(175, 175);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 5;
@@ -111,9 +112,9 @@
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.nombre);
             this.groupBox1.Location = new System.Drawing.Point(11, 255);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(484, 249);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
@@ -123,7 +124,7 @@
             // 
             this.Longitud.AutoSize = true;
             this.Longitud.Location = new System.Drawing.Point(155, 112);
-            this.Longitud.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Longitud.Margin = new System.Windows.Forms.Padding(4);
             this.Longitud.Name = "Longitud";
             this.Longitud.Size = new System.Drawing.Size(209, 20);
             this.Longitud.TabIndex = 7;
@@ -135,7 +136,7 @@
             // 
             this.Bonito.AutoSize = true;
             this.Bonito.Location = new System.Drawing.Point(155, 84);
-            this.Bonito.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bonito.Margin = new System.Windows.Forms.Padding(4);
             this.Bonito.Name = "Bonito";
             this.Bonito.Size = new System.Drawing.Size(197, 20);
             this.Bonito.TabIndex = 8;
@@ -152,7 +153,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.IP);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ForeColor = System.Drawing.Color.Red;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
